@@ -1,0 +1,224 @@
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: helvetica;
+}
+
+#dek {
+  background-color: #f1f3ff;
+  width: 100%;
+  font-family: Helvetica;
+}
+
+nav ul li a {
+  margin-right: 20px;
+}
+
+#header {
+  margin: 0 6%;
+}
+
+.container img {
+  margin-left: 16%;
+  max-width: 100%;
+}
+
+#textt {
+  padding-top: 150px;
+  width: 83%;
+}
+
+@media (max-width: 991px) {
+  .container img {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+#service {
+  margin-top: 10%;
+  margin-left: 13%;
+}
+
+@media (max-width: 600px) {
+  #service {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+.container ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.container ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.container ul li img {
+  height: auto;
+  width: auto;
+  margin-right: 10px;
+  margin-left: 0;
+}
+
+.container ul li p {
+  width: 100%;
+  margin: 0;
+  font-size: 14px;
+}
+
+#why {
+  margin: 9% 7%;
+  width: auto;
+}
+
+@media (max-width: 600px) {
+  #why {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .row {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* #testimonial {
+    width: 100%;
+  }  */
+
+#testimonial img {
+  width: auto;
+}
+
+.card-testimonial {
+  background-color: #f1f3ff;
+  height: 270px;
+  display: flex;
+  margin: 10px auto;
+  border-radius: 8px;
+  max-width: 680px;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .card-testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 372px;
+  }
+
+  .card-testimonial .col-3,
+  .card-testimonial .col-9 {
+    width: 100%;
+    text-align: center;
+    margin: 1px 0;
+  }
+
+  .card-testimonial .col-9 {
+    margin: 1% 2%;
+    text-align: left;
+    width: 100%;
+  }
+}
+
+#booking {
+  background-color: #0d28a6;
+  border: 0;
+  border-radius: 13px;
+  width: 100%;
+  margin: 8% 8%;
+  margin-top: 5%;
+}
+
+@media (max-width: 768px) {
+  #booking {
+    flex-direction: column;
+    align-items: center;
+    margin: 8% 3%;
+  }
+}
+
+#faq {
+  font-family: Helvetica;
+  justify-content: center;
+  margin: 3% 8%;
+  box-sizing: border-box;
+}
+
+.accordion-item {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  #faq {
+    flex-direction: column;
+    align-items: center;
+    margin: 8% 3%;
+  }
+}
+
+.footer {
+  font-family: Helvetica;
+  text-align: left;
+  padding: 50px 0;
+  margin-left: 3%;
+}
+
+.footer-col {
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 5%;
+}
+
+.footer-col ul li img {
+  height: 32px;
+}
+
+@media (max-width: 768px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 8%;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-col {
+    width: 100%;
+  }
+}
